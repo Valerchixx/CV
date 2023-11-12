@@ -1,0 +1,57 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background: -webkit-linear-gradient(
+    to bottom,
+    rgba(24, 54, 85, 1),
+    transparent 100%
+  );
+  background: linear-gradient(to bottom, rgba(24, 54, 85, 1), transparent 100%);
+  box-sizing: border-box;
+  padding: 0 25px;
+  color: #161616;
+}
+
+.title {
+  font-family: "Poppins", sans-serif;
+}
+
+.main_inner {
+  max-width: 70%;
+  border-right: 2px solid rgb(42, 42, 42);
+}
+
+header {
+  text-align: center;
+}
+
+.position {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+main {
+  margin-top: 40px;
+  display: flex;
+}
+
+li {
+  color: rgb(42, 42, 42);
+}
+
+.aboutMe,
+.descr {
+  max-width: 60%;
+}
+
+.main_aside {
+  margin-left: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(3, 23, 44);
+}
+
+a:hover {
+  text-decoration: underline;
+}
